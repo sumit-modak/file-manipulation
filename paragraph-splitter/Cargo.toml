@@ -1,0 +1,7 @@
+[package]
+name = "paragraph-splitter"
+version = "0.1.0"
+edition = "2024"
+description = "Splits a single line paragraph into multiple lines"
+
+[dependencies]
