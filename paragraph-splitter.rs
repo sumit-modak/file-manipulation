@@ -1,7 +1,10 @@
+#!/usr/bin/env -S cargo +nightly -Zscript
+
+//! Splits a single line paragraph into multiple lines
+
 use std::io::Write;
 
 // this is a blocking implementation
-
 fn main() {
     let l = std::env::args()
         .nth(1)

@@ -1,3 +1,7 @@
+#!/usr/bin/env -S cargo +nightly -Zscript
+
+//! Used for formatting kitty themes
+
 use std::collections::HashMap;
 use std::fs::File;
 use std::io::Write;
